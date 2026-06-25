@@ -1,0 +1,12 @@
+:host {
+    height: 100%;
+
+    mat-card {
+        background-color: var(--mat-sys-surface-variant);
+        columns: var(--mat-sys-on-surface-variant);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

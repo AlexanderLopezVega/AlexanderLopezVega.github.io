@@ -1,0 +1,11 @@
+<div id="tech-demos">
+    <h1>Tech Demos</h1>
+    <div class="tech-demos">
+        @for (techDemo of data; track $index) {
+        <app-tech-demo [name]="techDemo.name" [genre]="techDemo.genre" [description]="techDemo.description"
+            [canView]="techDemo.canView">
+        </app-tech-demo>
+        }
+        <app-trailing-tech-demo></app-trailing-tech-demo>
+    </div>
+</div>

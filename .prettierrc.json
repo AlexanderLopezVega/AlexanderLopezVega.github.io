@@ -1,6 +1,10 @@
 {
   "printWidth": 100,
+  "tabWidth": 4,
+  "semicolons": true,
   "singleQuote": true,
+  "trailingComma": "all",
+  
   "overrides": [
     {
       "files": "*.html",

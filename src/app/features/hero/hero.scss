@@ -1,0 +1,16 @@
+.hero-container {
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--mat-sys-on-surface-variant);
+}
+
+.hero-title {
+    font-size: 4rem;
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+}
