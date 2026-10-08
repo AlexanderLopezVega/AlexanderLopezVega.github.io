@@ -1,0 +1,33 @@
+@use '../../styles/global.scss' as *;
+
+header {
+	background-color: $surface;
+	padding: 1.5rem 0;
+
+	display: flex;
+	justify-content: center;
+}
+
+header nav {
+	display: inline;
+}
+
+header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-title {
+	font-size: 1.5rem;
+}
+
+.header-navigation {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}

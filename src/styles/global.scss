@@ -2,7 +2,7 @@ $primary: #96abe3;	    // Main brand colour / primary actions
 $secondary: #432382;	// Supporting brand colour / secondary actions
 $accent: #8f41cd;	    // Highlights, emphasis, special UI elements
 $background: #03060c;	// Main page background
-$surface: #0c111a;	    // Cards, panels, inputs, elevated areas
+$surface: #18121f;	    // Cards, panels, inputs, elevated areas
 $foreground: #e0e0e0;	// Main text and icons
 $muted: #6c757d;	    // Secondary text, borders, subtle UI
 $success: #28a745;	    // Successful states
@@ -10,8 +10,19 @@ $warning: #ffc107;	    // Warnings / attention
 $error: #dc3545;	    // Errors / destructive states
 $info: #17a2b8;	    // Informational states
 
-html {
+html, body {
+    margin: 0;
+    padding: 0;
+
     background-color: $background;
     color: $foreground;
     font-family: var(--font-nunito), sans-serif;
+}
+
+.reading-width {  
+    width: 100%;
+
+    @media (min-width: 1200px) {
+        max-width: 1200px;
+    }
 }
